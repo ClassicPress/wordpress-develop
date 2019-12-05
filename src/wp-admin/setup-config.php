@@ -150,7 +150,7 @@ switch ( $step ) {
 		echo '<p>' .  sprintf(
 			/* translators: link to support forums for more help */
 			__( 'To get started, fill in your database information. If you don&#8217;t have this information, it can be requested from your web host. Need more <a href="%s" target="_blank" rel="noopener">help</a>?' ),
-			'https://forums.classicpress.net/c/support'
+			'https://link.classicpress.net/support'
 		) . '</p>';
 
 		// Database settings inputs.
@@ -176,7 +176,7 @@ switch ( $step ) {
 		echo '		<td><input name="prefix" id="prefix" type="text" value="cp_" size="25" /> ' .
 			sprintf(
 				'<a href="%s" target="_blank" rel="noopener">' . __( 'Learn More' ) . '</a>',
-				esc_url('https://docs.classicpress.net/installing-classicpress/#installation-steps')
+				esc_url('https://link.classicpress.net/installing-classicpress/installation-steps')
 			) .
 			'</td>';
 		echo '	</tr>';

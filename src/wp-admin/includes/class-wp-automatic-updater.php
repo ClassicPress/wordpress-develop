@@ -686,7 +686,7 @@ class WP_Automatic_Updater {
 		} else {
 			// Add a note about the support forums.
 			$body .= "\n\n" . __( 'If you experience any issues or need support, the volunteers in the ClassicPress.net support forums may be able to help.' );
-			$body .= "\n" . __( 'https://forums.classicpress.net/c/support' );
+			$body .= "\n" . __( 'https://link.classicpress.net/support' );
 		}
 
 		// Updates are important!
@@ -836,8 +836,8 @@ class WP_Automatic_Updater {
 This debugging email is sent when you are using a development version of ClassicPress.
 
 If you think these failures might be due to a bug in ClassicPress, could you report it?
- * If you need general support: https://docs.classicpress.net/faq-support/
- * Or, if you're comfortable writing a bug report: https://docs.classicpress.net/testing-classicpress/#reporting-bugs
+ * If you need general support: https://link.classicpress.net/faq-support/
+ * Or, if you're comfortable writing a bug report: https://link.classicpress.net/testing-classicpress/reporting-bugs
 
 Thanks! -- The ClassicPress Team" ) );
 			$body[] = '';

@@ -71,22 +71,22 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 					/* translators: 1: link with instructions to join ClassicPress Slack, 2: link to community forums */
 					__( 'For general discussion about ClassicPress, <a href="%1$s"><strong>join our Slack group</strong></a> or our <a href="%2$s"><strong>community forum</strong></a>.' ),
 					'https://www.classicpress.net/join-slack/',
-					'https://forums.classicpress.net/c/support'
+					'https://link.classicpress.net/support'
 				); ?>
 			</p>
 			<p>
 				<?php printf(
 					/* translators: link to ClassicPress Petitions site for new features */
 					__( 'Suggestions for improvements to future versions of ClassicPress are welcome at <a href="%s"><strong>our petitions site</strong></a>.' ),
-					'https://petitions.classicpress.net/'
+					'https://link.classicpress.net/petitions'
 				); ?>
 			</p>
 			<p>
 				<?php printf(
 					/* translators: 1: link to ClassicPress FAQs page, 2: link to ClassicPress support forum */
 					__( 'If you need help with something else, please see our <a href="%1$s"><strong>FAQs page</strong></a>. If your question is not answered there, you can make a new post on our <a href="%2$s"><strong>support forum</strong></a>.' ),
-					'https://docs.classicpress.net/faq-support/',
-					'https://forums.classicpress.net/c/support/'
+					'https://link.classicpress.net/faq-support/',
+					'https://link.classicpress.net/support'
 				); ?>
 			</p>
 			<p>
@@ -102,7 +102,7 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 				<?php printf(
 					/* translators: link to ClassicPress release announcements subforum */
 					__( 'The changes and new features included in each version of ClassicPress can be found in our <a href="%s"><strong>Release Announcements subforum</strong></a>.' ),
-					'https://forums.classicpress.net/c/announcements/release-notes'
+					'https://link.classicpress.net/c/announcements/release-notes'
 				);
 				?>
 			</p>
@@ -111,7 +111,7 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 				<?php printf(
 					/* translators: link to ClassicPress 1.0.0 changelog */
 					__( 'For a list of new features and other changes from WordPress 4.9.x, see the <a href="%s"><strong>ClassicPress 1.0.0 (Aurora) release notes</strong></a>.' ),
-					'https://forums.classicpress.net/t/classicpress-1-0-0-aurora-release-notes/910'
+					'https://link.classicpress.net/classicpress-1-0-0-aurora-release-notes'
 				);
 				?>
 			</p>
